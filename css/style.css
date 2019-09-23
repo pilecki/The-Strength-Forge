@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    color: rgba(185, 174, 172, 0.73);
+}
+
+/*Navbar*/
+
+.nav-container {
+   position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+.navbar-toggler {
+    border: none;
+    text-align: right;
+    
+    
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(185, 174, 172, 0.73);
+}
+.navbar .navbar-collapse {
+    text-align: right;
+    
+    
+}
+
+
+
+
+/*Landing page*/
+
+.landing-page {
+    height: 100vh;
+
+    background: url("../images/guy_landing.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.quote-landing {
+    color: rgba(185, 174, 172, 0.73);
+    font-weight: bold;
+    font-size: 5rem;
+}
+.q{  quotes: "“" "”" "‘" "’";
+    }
+    .q:before {
+        content: open-quote;
+    }
+    .q:after {
+        content: close-quote;
+    }
+
+
+
+/*About us*/
+
+.container-about-us  {
+    
+    font-size: 0.8em;
+}
+
+
+
+
+/*The Join now*/
+
+.center-form{  /*umieszcza formularz na środku*/
+    margin:0 auto;
+    width: 60%;
+}
+
+ 
+
+
+
+.container-join-now {}
+
+
+/* The gym */
+
+/*Classes*/
+
+#zdjecie {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.co{
+    color: black;
+}
