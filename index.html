@@ -17,7 +17,7 @@
     <!-------Navbar-------------->
     <div class="container-fluid nav-container ">
         <nav class="navbar navbar-expand-sm navbar-dark">
-            <a class="navbar-brand d-none d-xl-block" href="#">The Strength Forge</a>
+            <span class="navbar-brand d-none d-md-block">The Strength Forge</span>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -60,20 +60,18 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center pb-3">Welcome to Strength Forge</h1>
+                    <h1 class="text-center pb-4 display-3">Welcome to Strength Forge</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="pb-3">Located in the very middle of the city centre, our South-East Playmouth gym is easy to access from anywhere in the local area.</p>
+                    <p class="pb-2">Located in the very middle of the city centre, our South-East Playmouth gym is easy to access from anywhere in the local area.</p>
+                    <p class="pb-2">The Strength Forge gym is a modern gym consisting of 3 training areas.</p>
+                    <p class="pb-2">The first for cardio training, equipped with treadmills, elliptical cross trainers and bicycles from Matrix, SportsArt and Bellagio.</p>
+                    <p class="pb-2">The second includes easy-to-use professional Nautilus and Marbo strength training devices.</p>
+                    <p class="pb-2"> The Strength Forge also has a separate room with free weights for all those who prefer basic, free exercises.</p>
+                    <p class="pb-2">The Strength Forge is a place where you will use all your time effectively, achieving your training goals.</p>
 
-
-                    <div class="about-us">
-                        <p>The Strength Forge gym is a modern gym consisting of 3 training areas.</p>
-                        <p>The first for cardio training, equipped with treadmills, elliptical cross trainers and bicycles from Matrix, SportsArt and Bellagio.</p>
-                        <p>The second includes easy-to-use professional Nautilus and Marbo strength training devices.</p>
-                        <p> The Strength Forge also has a separate room with free weights for all those who prefer basic, free exercises. The Strength Forge is a place where you will use all your time effectively, achieving your training goals.</p>
-                    </div>
                 </div>
             </div>
 
@@ -85,7 +83,7 @@
         <div class="container" id="gym">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center pb-3">Amenities at the Strength Forge</h1>
+                    <h1 class="text-center pb-3 display-3">Amenities at the Strength Forge</h1>
                 </div>
             </div>
         </div>
@@ -140,15 +138,15 @@
     <div class="container-fluid">
         <div class="container container-join-now" id="join-now">
             <div class="row">
-                <div class="col-12 pb-3">
+                <div class="col-12 pb-4">
                     <h1 class="text-center display-2">Join now</h1>
                 </div>
             </div>
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-12 pb-5">
                     <p class="text-center mark">Only 20£ a month!</p>
                 </div>
-            </div>
+            </div>-->
             <div class="row" id="join"></div>
             <div class="col-12 center-form">
 
@@ -169,7 +167,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                     </div>
                     <br>
-                    <input type="submit" value='Send' class="btn btn-warning">
+                    <input type="submit" value='Send' class="btn btn-send">
                 </form>
 
             </div>
@@ -182,10 +180,10 @@
 
     <!--------Classes ----------->
     <div class="container-fluid classes-container" id="classes">
-        <div class="container" >
+        <div class="container">
             <div class="row">
                 <div class="col-12 pt-5">
-                    <h1 class="text-center">Classes</h1>
+                    <h1 class="text-center display-2">Classes</h1>
                 </div>
             </div>
             <div class="row pt-5">
@@ -224,8 +222,8 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center pt-4">
-                    <p>Click to download classes schedule</p>
-                    <a class="btn btn-primary" href="#" role="button">Download</a>
+                    <p class="py-3">Click to download classes schedule</p>
+                    <a class="btn btn-download" href="#" role="button">Download</a>
                 </div>
             </div>
         </div>
@@ -234,16 +232,18 @@
     <!--------Footer-------------->
 
     <footer class="container-fluid">
-        <div class="row mx-auto">
-            <div class="col-sm-4">
-                <h5 class="uppercase">Get in touch</h5>
-                <p>163 Marsh, Docklands,<br>Tower Hamlets, Playmouth,<br>WH1 9SJ, United Kingdom
+        <div class="row pt-4">
+            <div class="col-sm-4 text-center">
+                <h4 class="uppercase">Get in touch</h4>
+                <h5>163 Marsh, Docklands</h5>
+                <h5>Tower Hamlets, Playmouth</h5>
+                <h5>WH1 9SJ, United Kingdom</h5>
                 </p>
             </div>
 
             <div class="col-sm-4">
-                <h5 class="uppercase">Follow us on media</h5>
-                <ul class="list-inline">
+                <h5 class="uppercase text-center">Follow us on media</h5>
+                <ul class="list-inline text-center">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fab fa-facebook"></i>
@@ -267,7 +267,9 @@
             </div>
 
             <div class="col-sm-4">
-                <a class="btn btn-warning" href="#join-now" role="button">Join now</a>
+                <div class="text-center">
+                    <a class="join" href="#join-now">Join now</a>
+                </div>
             </div>
         </div>
 
