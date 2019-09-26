@@ -67,7 +67,7 @@ body {
 
 
 .quote-landing {
-    color: rgba(185, 174, 172, 0.73);
+    color: rgba(205, 208, 213, 0.74);
     font-weight: bold;
     font-size: 6rem;
 }
@@ -88,7 +88,7 @@ body {
 }
 @media only screen and (min-width:321px) and (max-width: 767px) {
   p.quote-landing {
-    font-size: 3.8rem;
+    font-size: 3.1rem;
   }
 }
 
