@@ -125,6 +125,7 @@ body {
 
 
 /*The Join now*/
+
 .container-join-now{
     padding-top: 4%;
     padding-bottom: 7%;
@@ -134,61 +135,50 @@ body {
     margin:0 auto;
     width: 70%;
 }
-.text-center.mark {
-    width: fit-content;
-    position: relative;
-    margin: auto;
-    background-color:#d45e11;
-    color:#fff;
-    font-size: 1.5em;
-    border-radius: 10px;
-}
 
 .btn-send {
     color: #838080fa;
     border-color:#191a1f ;
     background-color: #eaeaea;
     border-radius: 8px;
+    transition: background-color color;
+}
+.btn-send:hover{
+    background-color:#191a1f;
+    color:#eaeaea;
 }
 
 /*Classes*/
+
 .classes-container{
     background-color: #191a1f;
-}
-
-#classes{
     padding-top: 5%;
     padding-bottom: 5%;
-    
 }
-#picture-classes {
+
+.classes-container img {
     height: 100%;
     width: 100%;
-    
 }
 
-}
-.btn-primary {
-    color: #fff;
-    background-color: #d45e11;
-    border-color: #d45e11;
+.paragraph-height{
+    min-height: 96px;
 }
 
-
-#classes > div > a{
-    transition: background-color;
-}
-
-#classes > div:nth-child(4) > div > a:hover{
-    background-color: grey;
-}
 
 .btn-download {
     color: #838080fa;
     border-color:#eaeaea;
     background-color: transparent;
     border-radius: 8px;
+    transition: background-color;
 }
+
+.btn-download:hover{
+    background-color: #eaeaea;
+}
+
+
 
 /*footer*/
 
