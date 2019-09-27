@@ -108,11 +108,20 @@ body {
 }
 
 /* The gym */
+
+
 .container-the-gym{
     padding-top:5%;
     padding-bottom:6%;
     background-color: #191a1f;
 }
+
+
+.carousel-caption {
+    color: #eaeaea;
+    
+}
+
 
 
 /*The Join now*/
