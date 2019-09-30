@@ -70,7 +70,7 @@ body {
 .quote-landing {
     color: rgba(205, 208, 213, 0.74);
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 .q{  quotes: "“" "”" "‘" "’";
     }
@@ -84,12 +84,12 @@ body {
 
 @media only screen and (max-width: 320px) {
   p.quote-landing {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (min-width:321px) and (max-width: 767px) {
   p.quote-landing {
-    font-size: 3.1rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -192,8 +192,6 @@ footer{
 
 }
 
-
-
 .join{
 		padding: 20px;
 		border: 1px #191a1f solid;
@@ -204,7 +202,6 @@ footer{
 		text-decoration: none;
 		font-size: 3rem;
 	}
-
 
 a.join:hover{
     background: #191a1f;
