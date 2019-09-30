@@ -169,11 +169,30 @@ body {
     width: 100%;
 }
 
-.paragraph-height{
-    min-height: 96px;
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .paragraph-height-mobile1{
+        min-height: 148px;
+    }
 }
 
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .paragraph-height-mobile2{
+        min-height: 208px;
+    }
+}
 
+@media only screen and (min-width:1024px){
+    .paragraph-height-lg-screen1{
+        min-height: 118.4px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .paragraph-height-lg-screen2{
+        min-height: 148px;
+    }
+}
 .btn-download {
     color: #838080fa;
     border-color:#eaeaea;
