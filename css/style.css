@@ -209,14 +209,11 @@ body {
 
 /*footer*/
 
-footer{
-    min-height: 150px;
-}
+
 
 .fa, .fab, .fad, .fal, .far, .fas {
     color: #838080fa;
     font-size: 2.5rem;
-
 }
 
 .join{
@@ -234,6 +231,13 @@ a.join:hover{
     background: #191a1f;
     text-decoration: none;
     color:#eaeaea;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .fa, .fab, .fad, .fal, .far, .fas, .join {
+    font-size: 2rem;    
+    }
 }
 
 /* width */
