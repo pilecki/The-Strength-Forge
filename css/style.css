@@ -136,6 +136,13 @@ body {
     width: 70%;
 }
 
+@media only screen and (max-width: 767px) {
+  .center-form {
+    margin:0 auto;
+    width: 100%;
+  }
+}
+
 .btn-send {
     color: #838080fa;
     border-color:#191a1f ;
@@ -147,6 +154,7 @@ body {
     background-color:#191a1f;
     color:#eaeaea;
 }
+
 
 /*Classes*/
 
