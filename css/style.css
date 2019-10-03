@@ -1,19 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #eaeaea;
-    color: #838080fa;
+    color: #838080;
 }
 
 /*Navbar*/
 
-.nav-container {
-   position: fixed;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
 
 .navbar {
 
@@ -30,7 +22,7 @@ body {
 }
 
 .navbar .navbar-brand{
-    color: #838080fa;
+    color: #838080;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     padding-left: 4.5%;
@@ -43,7 +35,7 @@ body {
 }
 
 #navbarNav > ul > li > a{
-    color: #838080fa; 
+    color: #838080; 
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -144,7 +136,7 @@ body {
 }
 
 .btn-send {
-    color: #838080fa;
+    color: #838080;
     border-color:#191a1f ;
     background-color: #eaeaea;
     border-radius: 8px;
@@ -194,7 +186,7 @@ body {
     }
 }
 .btn-download {
-    color: #838080fa;
+    color: #838080;
     border-color:#eaeaea;
     background-color: transparent;
     border-radius: 8px;
@@ -212,7 +204,7 @@ body {
 
 
 .fa, .fab, .fad, .fal, .far, .fas {
-    color: #838080fa;
+    color: #838080;
     font-size: 2.5rem;
 }
 
@@ -222,7 +214,7 @@ body {
 		padding-left: 15px;
 		padding-right: 15px;
 		border-radius: 5px;
-		color: #838080fa;
+		color: #838080;
 		text-decoration: none;
 		font-size: 3rem;
 	}
@@ -253,7 +245,7 @@ a.join:hover{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #838080fa; 
+  background: #838080; 
   border-radius: 10px;
 }
 
