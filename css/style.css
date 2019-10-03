@@ -64,7 +64,7 @@ body {
     font-weight: bold;
     font-size: 4rem;
 }
-.q{  quotes: "“" "”" "‘" "’";
+.quote-mark{  quotes: "“" "”" "‘" "’";
     }
     .q:before {
         content: open-quote;
@@ -140,7 +140,7 @@ body {
     border-color:#191a1f ;
     background-color: #eaeaea;
     border-radius: 8px;
-    transition: background-color color;
+   
 }
 .btn-send:hover{
     background-color:#191a1f;
@@ -190,7 +190,7 @@ body {
     border-color:#eaeaea;
     background-color: transparent;
     border-radius: 8px;
-    transition: background-color;
+    
 }
 
 .btn-download:hover{
@@ -203,11 +203,14 @@ body {
 
 
 
-.fa, .fab, .fad, .fal, .far, .fas {
+.fab {
     color: #838080;
     font-size: 2.5rem;
 }
 
+.fab:hover{
+    color:darkgrey;
+}
 .join{
 		padding: 20px;
 		border: 1px #191a1f solid;
@@ -227,7 +230,7 @@ a.join:hover{
 
 @media only screen and (max-width: 768px){
     
-    .fa, .fab, .fad, .fal, .far, .fas, .join {
+    .fab .join {
     font-size: 2rem;    
     }
 }
