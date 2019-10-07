@@ -50,7 +50,7 @@ body {
 .landing-page {
     height: 100vh;
 
-    background: url("../images/guy_landing1.jpg") no-repeat top center fixed;
+    background: url("../images/guy_landing1.jpg") no-repeat top center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -75,6 +75,13 @@ body {
     .q:after {
         content: close-quote;
     }
+    
+.test{
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
 
 
 @media only screen and (max-width: 320px) {
@@ -88,11 +95,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .landing-page {
-    background-attachment: scroll;
-  }
-}
 
 /*About us*/
 
@@ -188,7 +190,7 @@ body {
 
 @media only screen and (min-width:1024px){
     .paragraph-height-lg-screen1{
-        min-height: 118.4px;
+        min-height: 120px;
     }
 }
 
@@ -223,6 +225,7 @@ body {
 .fab:hover{
     color:darkgrey;
 }
+
 .join{
 		padding: 20px;
 		border: 1px #191a1f solid;
@@ -240,9 +243,9 @@ a.join:hover{
     color:#eaeaea;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 922px){
     
-    .fab .join {
+    .fab, .join {
     font-size: 2rem;    
     }
 }
