@@ -22,7 +22,18 @@ The website is divided into sections to meet user expectations, which are:
 8. As a user, I want to be able to see links to social media accounts so that I could learn about additional content published by the gym.
 
 # Technologies
-HTML, CSS, Bootstrap
+- This project uses HTML and CSS programming languages.
+- [Cloud9](https://c9.io) - This developer used **Cloud9** for their IDE while building the website.
+- [Bootstrap](https://www.getbootstrap.com/)
+    - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.
+- [jQuery](https://jquery.com/)
+    - The project uses **jQuery** to reference Javascript needed for the responsive navbar.
+- [Popper.js](https://popper.js.org/)
+    - The project uses **Popper,js** reference Javascript needed for the responsive navbar.
+- [FontAwesome](https://fontawesome.com/)
+    - The project uses **Font Awesome** to style links to social media.
 
 # Features
 
@@ -32,11 +43,11 @@ In WebKit browsers, such as Chrome, Safari and Opera, the look of the browser's 
 
 ## Features left to implement
 
-In the future, the developer would like to add responsive fitness schedule using JavaScript in the classes section.
+- In the future, the developer would like to add responsive fitness schedule using JavaScript in the classes section.
 
-Also using JavaScript, the developer would like to implement navbar, which changes its background colour depending on the what background it is placed.
+- Also using JavaScript, the developer would like to implement navbar, which changes its background colour depending on the what background it is placed.
 
-Compatibility with Internet Explorer.
+- Compatibility with Internet Explorer.
 
 # Testing
 
@@ -45,28 +56,39 @@ The developer used **W3C CSS Validation Service** and **W3C  Markup Validation S
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation]( https://validator.w3.org/)
 
+The only errors found in the validator are browser compatibility error.
+
 **UX testing**
 
 - Navbar
-    - On top of the page, a fixed navigation bar is placed, giving a user easy access to every part of the site.
+     - As a user, I want to be able to get every part of the site so that I could discover content quickly.
+        - On top of the page, a fixed navigation bar is placed, giving a user easy access to every part of the site.
+
 
 - Home section
-    - The Home section consists of a picture of the muscular man and a text that encourages people to hard work.
+    - As a user, I want to see something, so that makes me hard work.
+        - The Home section consists of a picture of the muscular man and a text that encourages people to hard work.
 
 - Join section
-    - The Join section provides a simple form to contact the staff of the gym and make any queries.
+    - As a user, I want to be able to contact the staff of the gym so that I could ask them anything regarding the gym.
+        - The Join section provides a simple form to contact the staff of the gym and make any queries.
 
 - About section
-    - In the about section, there is a warm welcome and information about the location of the gym as well as brief descriptions of the training areas.
+    - As a user, I want to know where the gym is so that I could find it.
+        - In the about section, there is a warm welcome and information about the location of the gym as well as brief descriptions of the training areas. Also, the address of the gym is provided in the footer.
 
 - Gym section
-    - The gym section contains photos, allowing customers to familiarise with the main amenities available in the gym.
+    - As a user, I want a brief description of the gym so that I could know better what exercises I can to perform at the gym.
+        - The gym section contains photos, allowing customers to familiarise with the main amenities available in the gym. Each photograph has a description included.
 
 - Classes section
-    - In the classes section, there are pictures with descriptions of the classes available in the gym.
+    - As a user, I want to know what classes are available at the gym.
+        - In the classes section, there are pictures with descriptions of the classes available in the gym.
+ 
 
 - Footer
-    - The footer includes address links to social media sites running by the gym and a large link leading to join us section.
+    - As a user, I want to be able to see links to social media accounts so that I could learn about additional content published by the gym.
+        - The footer includes address links to social media sites running by the gym and a large link leading to join us section.
 
 A website was manually tested on various mobile devices(iPhone5,6,7, Ipad, Fire 10 HD, Samsung Galaxy, Sony Xperia) and multiple web-browsers (Chrome, Mozilla Firefox, Opera, Internet Explorer, Edge, Safari) to ensure compatibility and responsiveness.
 During testing, I noticed incompatibility of background-image-attachment-fixed property on Apple’s devices. The image was enlarged and blurry making an inaesthetic look. To fix it the attachment-fixed property was changed to scroll.
