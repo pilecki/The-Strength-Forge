@@ -69,10 +69,10 @@ body {
 }
 .quote-mark{  quotes: "“" "”" "‘" "’";
     }
-    .q:before {
+    .quote-mark:before {
         content: open-quote;
     }
-    .q:after {
+    .quote-mark:after {
         content: close-quote;
     }
     

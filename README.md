@@ -80,7 +80,7 @@ The required attribute is set for all input fields, preventing sending the form 
 
 The website is published using hosting service GitHubPages taking files straight from a repository on GitHub. The site is updated automatically after new commits pushed.
 To store site locally use can either use Github Desktop or clone it using the following command:
-`git clone https://github.com/ pilecki/The-Strength-Forge.git`
+`git clone https://github.com/pilecki/The-Strength-Forge.git`
 
 # Credits
 
